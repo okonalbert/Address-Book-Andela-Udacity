@@ -1,0 +1,36 @@
+#show-contact {
+    display: none;
+}
+
+.contact {
+    cursor: pointer;
+    color: #0088cc;
+}
+
+.contact:hover {
+    text-decoration: underline;
+}
+
+.hidden {
+    display: none;
+}
+
+.address-title {
+    padding-left: 30vw;
+    padding-right: 30vw;
+}
+
+footer {
+    position: relative;
+    bottom: -50vh;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    padding-left: 40%;
+    padding-right: 40%;
+}
+
+footer div {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    font-weight: bold;
+}

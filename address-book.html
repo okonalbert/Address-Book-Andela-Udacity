@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="css/address-book.css" rel="stylesheet" type="text/css">
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/address-book.js"></script>
+    <title>Address book</title>
+</head>
+
+<body class="bg-warning">
+    <div class="container">
+        <div class="address-title">
+            <h1>Address book</h1>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col-md-5">
+                <h2>Add a contact:</h2>
+                <form id="new-contact">
+
+                    <span class="btn btn-primary" id="add-new">New Contact</span>
+                    <button type="submit" class="btn">Add</button>
+                </form>
+            </div>
+
+            <div class="col-md-4 text-centre">
+                <h2>Contacts:</h2>
+                <ul id="contacts">
+
+                </ul>
+            </div>
+            <div class="col-md-3">
+                <div id="show-contact">
+                    <h2></h2>
+
+                    <p>First name: <span class="first-name"></span></p>
+                    <p>Last name: <span class="last-name"></span></p>
+                    <p>Contact: <span class="phone"></span></p>
+                    <p>Addresses:</p>
+                    <ul id="addresses">
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <footer class="bg-success">
+            <div>
+                Designed by Albert Okon
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
